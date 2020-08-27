@@ -1,0 +1,27 @@
+.cart {
+    background-color: indianred;
+    padding: 20px 40px;
+    position: fixed;
+    color: white;
+    border-radius: 20px;
+}
+.cart h2 {
+    color: wheat;
+    font-size:25px;
+}
+.cart button{
+    width: 200px;
+    line-height:30px;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    border-radius:10px;
+
+    cursor: pointer;
+}
+
+.cart button:hover {
+    font-weight: bold;
+    background-color: orange;
+    color: beige;
+}
