@@ -4,7 +4,6 @@ import { faGift } from '@fortawesome/free-solid-svg-icons';
 import './SingleCourse.css';
 
 const SingleCourse = (props) => {
-    console.log(props);
     const {name, instructor, price, img} = props.course;
 
     return (
